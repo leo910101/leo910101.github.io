@@ -11,7 +11,7 @@ app.secret_key="123456"
 # 處理路由
 @app.route("/")
 def home():
-    return render_template("home_page.html")
+    return render_template("index.html")
 
 @app.route("/search")
 def search():
